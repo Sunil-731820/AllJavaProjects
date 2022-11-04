@@ -12,6 +12,7 @@
 out.println("Hello Welcome to My JSTL Tags");
 %>
 
+
 <c:out value="${'welcome To Java JSTL Tag'}"></c:out>
 <c:out value="${'Hello Sunil Today i Am going start my Sesion' }"></c:out>
 </body>

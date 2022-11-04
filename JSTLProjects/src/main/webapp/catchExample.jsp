@@ -11,8 +11,9 @@
 <c:out value="${'I Am Going to Start the Use Of catch In JSTL'}"></c:out>
 <c:catch var ="number">
 <%
-	int x = 2/1;
+	int x = 2/01;
 %>
+<c:out value="${number}"></c:out>
 </c:catch>
 
 <c:if test="${number!=null}">
@@ -23,6 +24,6 @@
 </c:if>
 <c:out value="${'Number is '}"></c:out>
 <c:out value="${x}"></c:out>
-<c:set value="${x}"></c:set>
+
 </body>
 </html>
