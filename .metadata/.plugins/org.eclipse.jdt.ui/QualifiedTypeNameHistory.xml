@@ -20,4 +20,5 @@
     <fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.NamedQuery"/>
     <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
+    <fullyQualifiedTypeName name="java.util.ListResourceBundle"/>
 </qualifiedTypeNameHistroy>
