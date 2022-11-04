@@ -1,0 +1,21 @@
+package com.java.hib;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+public class EmployDAO {
+	SessionFactory sf;
+	Session session;
+	
+	public List<Employ> showEmploy(){
+		sf = SessionHelper.getSession();
+		Session sesion = sf.openSession();
+		Query q = session.getNamedQuery("");
+		List<Employ> listOfEmploy = q.list();
+		return listOfEmploy;
+	}
+
+}
