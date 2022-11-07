@@ -9,6 +9,7 @@
 </head>
 <body>
 <c:out value="${'I am Going use the for Each loop in JSTL'}"></c:out>
+
 <c:forEach var="j" begin="1" end="10">
 <p>
 	Item is <c:out value="${j}"></c:out>

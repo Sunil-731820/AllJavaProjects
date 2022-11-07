@@ -25,14 +25,20 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.java.hib"/>
+			<item value="Infinite.Hello"/>
+			<item value="com.java.jpa"/>
 			<item value="com.java.jstl"/>
 			<item value="com.java.list"/>
-			<item value="com.java.hib"/>
 		</list>
 		<list key="groupId">
 			<item value="Infinite"/>
 		</list>
 		<list key="artifactId">
+			<item value="FirstExampleOfJPAUsingHibernates"/>
+			<item value="Hello"/>
+			<item value="FirstExampleOfJPA"/>
+			<item value="OneToOneMappingInHibernate"/>
 			<item value="JSTLProjects"/>
 			<item value="LeaveManagmentSystemPerformingTheCRUDOperationUsingList"/>
 			<item value="LeaveManagementSystemUsingHibernateAndJSTL"/>
