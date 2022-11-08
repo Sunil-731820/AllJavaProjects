@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+<class name="com.java.hib.Student" table="student">
+
+	<id name="id" type="integer">
+		<column name="student_id"></column>
+	</id>
+	
+	<property name="name" type="string">
+		<column name="student_name" length="10" not-null="true"></column>
+	</property>
+	
+	<property name="age" type="integer">
+		<column name="student_age" length="20" not-null="true"></column>
+	</property>
+
+
+</class>
+</hibernate-mapping>

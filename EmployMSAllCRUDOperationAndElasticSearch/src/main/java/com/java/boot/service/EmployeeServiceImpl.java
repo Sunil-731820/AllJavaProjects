@@ -5,12 +5,14 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.java.boot.entity.Employee;
 import com.java.boot.entity.repository.EmployeeRepository;
 
 
 @Service
+@Transactional
 public class EmployeeServiceImpl implements EmployeeService{
 
 	@Autowired
@@ -44,6 +46,20 @@ public class EmployeeServiceImpl implements EmployeeService{
 	@Override
 	public void deleteEmployeeByid(int emp_Id) {
 		this.employeeRepository.deleteById(emp_Id);
+		
+	}
+
+	@Override
+	public List<Employee> searchDatabyAnyWords() {
+		List<Employee> getListOfEmployee = getAllEmploy();
+		getListOfEmployee.stream().filter(name ->name.getEmp_firstName().startsWith("S"));
+		return getListOfEmployee;
+		
+	}
+
+	@Override
+	public void updateEmploy(Employee employee, Integer emp_Id) {
+		employeeRepository.save(employee);
 		
 	}
 	

@@ -18,6 +18,12 @@ public interface EmployeeService {
 //	Deleting the Employ By Id
 	void deleteEmployeeByid(int emp_Id);
 	
+//	Searching the any element from the List of The EMployee Data 
+	
+	List<Employee> searchDatabyAnyWords();
+	
+//	Updateing the Employe Data 
+	void updateEmploy(Employee employee, Integer emp_Id);
 	
 	
 
