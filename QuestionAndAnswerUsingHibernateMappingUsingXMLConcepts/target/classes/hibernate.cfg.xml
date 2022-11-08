@@ -11,6 +11,7 @@
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <!--  Used bag mapping instead of list and it is specified here -->
         <mapping resource="multiplechoicequestion.hbm.xml" />
-        <mapping resource="question.hbm.xml" />
+        <mapping resource="questionSet.hbm.xml" />
+        <mapping resource="questionList.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>
