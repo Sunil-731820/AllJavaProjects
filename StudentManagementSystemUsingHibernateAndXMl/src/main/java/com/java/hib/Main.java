@@ -14,174 +14,37 @@ import org.hibernate.service.ServiceRegistry;
 
 public class Main {
 	
-	private static final SessionFactory SESSION_FACTORY;
 	
-	static {
-		
-		Configuration config = new Configuration();
-		config.configure();
-		Properties prop = config.getProperties();
-		StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder();
-		builder.applySettings(prop);
-		ServiceRegistry registry = builder.build();
-		SESSION_FACTORY = config.buildSessionFactory(registry);
-		
-		
-	}
-	
-	/**
-     * Create a new Student.
-     *
-     * @param name
-     * @param age
-     */
-    public static void create(int id, String name, int age) {
-        // Create a session
-        Session session = SESSION_FACTORY.openSession();
-        Transaction transaction = null;
-        try {
-            // Begin a transaction
-            transaction = session.beginTransaction();
-            Student stu = new Student();
-            stu.setId(id);
-            stu.setName(name);
-            stu.setAge(age);
-            // Save the student
-            session.save(stu);
-            // Commit the transaction
-            transaction.commit();
-        } catch (HibernateException ex) {
-            // If there are any exceptions, roll back the changes
-            if (transaction != null) {
-                transaction.rollback();
-            }
-            // Print the Exception
-            ex.printStackTrace();
-        } finally {
-            // Close the session
-            session.close();
-        }
-    }
-	
-	
-	 /**
-     * Read all the Students.
-     *
-     * @return a List of Students
-     */
-    public static List<Student> readAll() {
-        List<Student> students = null;
-        // Create a session
-        Session session = SESSION_FACTORY.openSession();
-        Transaction transaction = null;
-        try {
-            // Begin a transaction
-            transaction = session.beginTransaction();
-            students = session.createQuery("FROM Student").list();
-            // Commit the transaction
-            transaction.commit();
-        } catch (HibernateException ex) {
-            // If there are any exceptions, roll back the changes
-            if (transaction != null) {
-                transaction.rollback();
-            }
-            // Print the Exception
-            ex.printStackTrace();
-        } finally {
-            // Close the session
-            session.close();
-        }
-        return students;
-    }
-    
-    /**
-     * Delete the existing Student.
-     *
-     * @param id
-     */
-    public static void delete(int id) {
-        // Create a session
-        Session session = SESSION_FACTORY.openSession();
-        Transaction transaction = null;
-        try {
-            // Begin a transaction
-            transaction = session.beginTransaction();
-            // Get the Student from the database.
-            Student stu = (Student) session.get(Student.class, Integer.valueOf(id));
-            // Delete the student
-            session.delete(stu);
-            // Commit the transaction
-            transaction.commit();
-        } catch (HibernateException ex) {
-            // If there are any exceptions, roll back the changes
-            if (transaction != null) {
-                transaction.rollback();
-            }
-            // Print the Exception
-            ex.printStackTrace();
-        } finally {
-            // Close the session
-            session.close();
-        }
-    }
-
-    /**
-     * Update the existing Student.
-     *
-     * @param id
-     * @param name
-     * @param age
-     */
-    public static void upate(int id, String name, int age) {
-        // Create a session
-        Session session = SESSION_FACTORY.openSession();
-        Transaction transaction = null;
-        try {
-            // Begin a transaction
-            transaction = session.beginTransaction();
-            // Get the Student from the database.
-            Student stu = (Student) session.get(Student.class, Integer.valueOf(id));
-            // Change the values
-            stu.setName(name);
-            stu.setAge(age);
-            // Update the student
-            session.update(stu);
-
-            // Commit the transaction
-            transaction.commit();
-        } catch (HibernateException ex) {
-            // If there are any exceptions, roll back the changes
-            if (transaction != null) {
-                transaction.rollback();
-            }
-            // Print the Exception
-            ex.printStackTrace();
-        } finally {
-            // Close the session
-            session.close();
-        }
-    }
-    
-    public static void main(String[] args) {
-    	 // Print all the Students
-        List<Student> students = readAll();
-        if (students != null) {
-            for (Student stu : students) {
-                System.out.println(stu);
-            }
-        }
+   public static void main(String[] args) {
+	  
+//	  Adding One Object To The DB
+//	  AllStundetFunctionality.add(10, "Arti", 20);
+	   
+//	   calling the readAll() method in the Main parts
+//	   List<Student> listOfStudent = AllStundetFunctionality.readAll();
+//	  if(listOfStudent!=null) {
+//		  for(Student student : listOfStudent) {
+//			   System.out.println(student);
+//		   }
+//	  }else {
+//		  System.out.println("No Student Data is Found In DB");
+//	  }
+//	  
+////	  Calling delete() 
+//	  AllStundetFunctionality.delete(10);
+//	  List<Student> listOfStudent1 = AllStundetFunctionality.readAll();
+//	  if(listOfStudent1!=null) {
+//		  for(Student student : listOfStudent1) {
+//			   System.out.println(student);
+//		   }
+//	  }else {
+//		  System.out.println("No Student Data is Found In DB");
+//	  }
+	   
+//	   I am calling the update()
+	   
+	   AllStundetFunctionality.update(2, "Sunil", 23);
+}
         
-//        // Create two Students
-//        create(2, "Bob", 20); // Bob will get an id 2
-//        create(3, "Charlie", 25); // Charlie will get an id 3
-        
-        
-
-//        // Update the age of Bob using the id
-//        upate(2, "Bob", 25);
-
-        // Delete the Alice from database
-        delete(1);
-	}
 
 }
