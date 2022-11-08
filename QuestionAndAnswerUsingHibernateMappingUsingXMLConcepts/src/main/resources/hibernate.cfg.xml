@@ -13,5 +13,6 @@
         <mapping resource="multiplechoicequestion.hbm.xml" />
         <mapping resource="questionSet.hbm.xml" />
         <mapping resource="questionList.hbm.xml"/>
+        <mapping resource="questionMap.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

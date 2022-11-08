@@ -11,7 +11,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
 public class StoreQuestion1 {
-private static final SessionFactory SESSION_FACTORY;
+	private static final SessionFactory SESSION_FACTORY;
 	
 	/**
 	 * Initialising the SessionFactory instance
