@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+ <!-- Questions is the table name -->
+   <class name="com.java.hib.CollectionMappingOfBagging.MultipleChoiceQuestion" table="Questions">  
+     <id name="qId">  
+       <generator class="increment"></generator>  
+     </id>  
+       
+     <property name="questionName"></property>  
+        
+     <!--  This is almost like a list but here we are using bag instead of a list
+              i.e. 1 question can have n choices. It is done by means of bag.
+              Main advantage is it does not have a index element -->
+     <bag name="choices" table="Choices">  
+       <key column="questionId"></key>  
+       <element column="answer" type="string"></element>  
+     </bag>  
+  
+   </class>  
+</hibernate-mapping>

@@ -21,6 +21,8 @@ D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3693427
 \JSTLProjects\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3279044759.index
 \AgentMSUsingHibernateProject\src\main\java
+D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\417119700.index
+\QuestionAndAnswerUsingHibernateMappingUsingXMLConcepts\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4055288673.index
 \JSTLProjects\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2799008830.index
