@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\AllJavaProjects\youtubeProjects\JpaDemo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -27,23 +28,16 @@
 		<list key="package">
 			<item value="com.java.hib"/>
 			<item value="com.java.jpa"/>
-			<item value="Infinite.Hello"/>
-			<item value="com.java.jstl"/>
-			<item value="com.java.list"/>
 		</list>
 		<list key="groupId">
-			<item value="Infinite"/>
+			<item value="Hibernate"/>
+			<item value="JPA"/>
 		</list>
 		<list key="artifactId">
-			<item value="EmployMSUsingHibernate"/>
-			<item value="StudentManagementSystemUsingJPA"/>
-			<item value="FirstExampleOfJPAUsingHibernates"/>
-			<item value="Hello"/>
-			<item value="FirstExampleOfJPA"/>
-			<item value="OneToOneMappingInHibernate"/>
-			<item value="JSTLProjects"/>
-			<item value="LeaveManagmentSystemPerformingTheCRUDOperationUsingList"/>
-			<item value="LeaveManagementSystemUsingHibernateAndJSTL"/>
+			<item value="QuestionAndAnswerUsingHibernateMappingUsingXMLConcepts"/>
+			<item value="StudentManagementSystemUsingHibernateAndXMl"/>
+			<item value="EmployMSUsingHibernateAndXML"/>
+			<item value="AlienProjectUsingJPAHibernate"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -79,5 +73,18 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\AllJavaProjects\youtubeProjects\JpaDemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
