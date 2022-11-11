@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\AllJavaProjects\JSTLProjects\src\main\webapp\SQLTag\ShowAllStudents.jsp"/>
 			<item value="D:\AllJavaProjects\youtubeProjects\JpaDemo"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,6 +27,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.java.jsf"/>
+			<item value="com.java.jstl"/>
 			<item value="com.java.hib"/>
 			<item value="com.java.jpa"/>
 		</list>
@@ -34,6 +37,8 @@
 			<item value="JPA"/>
 		</list>
 		<list key="artifactId">
+			<item value="EmployManagementSystemUsingJSF"/>
+			<item value="EmployManagementSystemUsingJSTL"/>
 			<item value="QuestionAndAnswerUsingHibernateMappingUsingXMLConcepts"/>
 			<item value="StudentManagementSystemUsingHibernateAndXMl"/>
 			<item value="EmployMSUsingHibernateAndXML"/>
