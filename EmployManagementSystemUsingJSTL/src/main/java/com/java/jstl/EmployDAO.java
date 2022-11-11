@@ -25,7 +25,6 @@ public class EmployDAO {
 		SessionFactory sf = SessionHelper.geSessionFactory();
 		Session session = sf.openSession();
 		Query q = session.createQuery("from Employ where empId ="+ empId);
-		
 		List<Employ> listOfEmploy = q.list();
 		Employ employ = null;
 		if(listOfEmploy.size()==1) {
