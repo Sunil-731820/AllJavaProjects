@@ -27,9 +27,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.java.hib"/>
 			<item value="com.java.jsf"/>
 			<item value="com.java.jstl"/>
-			<item value="com.java.hib"/>
 			<item value="com.java.jpa"/>
 		</list>
 		<list key="groupId">
@@ -37,6 +37,7 @@
 			<item value="JPA"/>
 		</list>
 		<list key="artifactId">
+			<item value="ImageDisplayIUsingHibernateAndJSTL"/>
 			<item value="EmployManagementSystemUsingJSF"/>
 			<item value="EmployManagementSystemUsingJSTL"/>
 			<item value="QuestionAndAnswerUsingHibernateMappingUsingXMLConcepts"/>
