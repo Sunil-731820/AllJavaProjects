@@ -27,23 +27,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.java.hib"/>
-			<item value="com.java.jsf"/>
-			<item value="com.java.jstl"/>
-			<item value="com.java.jpa"/>
+			<item value="com.java.js"/>
 		</list>
 		<list key="groupId">
-			<item value="Hibernate"/>
-			<item value="JPA"/>
+			<item value="JavaScript"/>
 		</list>
 		<list key="artifactId">
-			<item value="ImageDisplayIUsingHibernateAndJSTL"/>
-			<item value="EmployManagementSystemUsingJSF"/>
-			<item value="EmployManagementSystemUsingJSTL"/>
-			<item value="QuestionAndAnswerUsingHibernateMappingUsingXMLConcepts"/>
-			<item value="StudentManagementSystemUsingHibernateAndXMl"/>
-			<item value="EmployMSUsingHibernateAndXML"/>
-			<item value="AlienProjectUsingJPAHibernate"/>
+			<item value="JavaScriptCatalog"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
