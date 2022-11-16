@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>This is the Hello World Example Of The Ajax</h2>
+
+<p id="demo">
+Update content Using Ajax
+</p>
+
+<button type="button" onclick="loadDocument()">Update Content</button>
+
+<script type="text/javascript">
+
+	function loadDocument() {
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function(){
+			if(this.readyState==4 && this.status==200){
+				document.getElementById("demo").innerHTML = this.responseText;
+				}
+
+			};
+			xhttp.open("GET","TaskAssignByMe.txt",true);
+			xhhtp.send();
+	}
+
+</script>
+</body>
+</html>

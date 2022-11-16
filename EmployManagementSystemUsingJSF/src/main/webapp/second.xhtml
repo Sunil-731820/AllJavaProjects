@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sql_rt="http://java.sun.com/jstl/sql_rt">
+
+<h:body style="background-color:wheat">
+
+        <h2>
+
+                Displaying details in custom format <br />
+
+ 
+
+                <h:panelGrid columns="2">
+
+               
+
+                        User ID is
+
+                        <h:outputText value="#{helloBeanNext.userId}">
+                        </h:outputText>
+
+                       
+
+                        Name is
+
+                        <h:outputText value="#{helloBeanNext.name}" />
+
+                       
+
+                        Percentage in default format is
+
+                        <h:outputText value="#{helloBeanNext.percent}" />
+
+                       
+
+                       
+
+                        Salary in default format is
+
+                         <h:outputText value="#{helloBeanNext.salary}" />
+
+                       
+
+              
+                       
+
+                        </h:outputText>
+
+                      
+                        Zipcode is
+
+                        <h:outputText value="#{helloBeanNext.zipcode}" />
+
+ 
+
+                </h:panelGrid>
+
+        </h2>
+
+</h:body>
+
+
+</html>
+      

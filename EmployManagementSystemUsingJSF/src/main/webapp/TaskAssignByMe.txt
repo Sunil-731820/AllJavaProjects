@@ -1,0 +1,20 @@
+Create Table Resolve
+(
+   ComplaintID varchar(30),
+   ComplaintDate date,
+   ResolveDate date,
+   ResolvedBy varchar(30),
+   Comments varchar(100)
+     ComplaintID varchar(30),
+   ComplaintDate date,
+   ResolveDate date,
+   ResolvedBy varchar(30),
+   Comments varchar(100)
+);
+
+After that 
+1) fetch the ComplaintDate from the Resolve Table .
+2) fetch the ResolvedBy & Comments from the Resolve Table .
+3) fetch the ComplaintID  & ResolvedBy  from the Resolve Table .
+4) Create One Virtual Table With Same Name Above called As Resolve .
+5) Write the Query If you have 100000 records then insert these Records into the Table in Both The Table Called Resolve And Virtaul Table Called As Resolve View table After Creation Of The virtual table .
