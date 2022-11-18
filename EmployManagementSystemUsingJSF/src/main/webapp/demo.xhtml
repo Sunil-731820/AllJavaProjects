@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sql_rt="http://java.sun.com/jstl/sql_rt">
+      <h:head></h:head>
+<h:head></h:head>
+
+<h:body style="background-color:yellow">
+
+        <h:form>
+
+                <h1>Do You Like this Website</h1>
+
+                <h:panelGrid columns="2">
+
+                       
+
+                        <h:commandButton  actionListener="#{likeDisLikeBean.likeCounter}" value="   Like  " />
+
+                        <h:outputText value="#{likeDisLikeBean.likeCount}" />
+
+                       
+
+                        <h:commandButton  actionListener="#{likeDisLikeBean.disLikeCounter}" value="DisLike" />
+
+                        <h:outputText value="#{likeDisLikeBean.disLikeCount}" />
+
+                       
+
+                </h:panelGrid>
+
+        </h:form>
+
+</h:body>
+      
+ </html>
+      
