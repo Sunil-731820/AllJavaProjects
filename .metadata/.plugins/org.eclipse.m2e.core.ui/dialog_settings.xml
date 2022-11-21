@@ -27,12 +27,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.java.rest"/>
 			<item value="com.java.js"/>
 		</list>
 		<list key="groupId">
+			<item value="RestAPIWebServices"/>
 			<item value="JavaScript"/>
 		</list>
 		<list key="artifactId">
+			<item value="RestAPIWebServicesUsingJavaProjects"/>
 			<item value="JavaScriptCatalog"/>
 		</list>
 		<list key="projectNameTemplate">
