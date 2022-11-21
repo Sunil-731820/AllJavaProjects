@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistryBuilder"/>
-    <fullyQualifiedTypeName name="org.hibernate.metamodel.Metadata"/>
     <fullyQualifiedTypeName name="org.hibernate.metamodel.MetadataSources"/>
     <fullyQualifiedTypeName name="com.java.hib.CollectionMapping.MultipleChoiceQuestion"/>
     <fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
     <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
     <fullyQualifiedTypeName name="javax.faces.event.ActionEvent"/>
+    <fullyQualifiedTypeName name="java.util.SortedMap"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
 </qualifiedTypeNameHistroy>
