@@ -15,9 +15,9 @@ public class Student {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Student(int studentId, String firstName, String lastName, String className, String rollNo, int age) {
+	public Student( String firstName, String lastName, String className, String rollNo, int age) {
 		super();
-		this.studentId = studentId;
+		
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.className = className;

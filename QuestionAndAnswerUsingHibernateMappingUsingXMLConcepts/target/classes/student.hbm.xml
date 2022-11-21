@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+<class name="com.java.hib.w3Mapping.Student" table="Student">
+  <id name="studentId" type="int" column="Student_Id">
+	<generator class="native"></generator>
+  </id>
+ 
+  <property name="firstName" column="First_Name" type="string"/>
+  <property name="lastName" column="Last_Name" type="string"/>
+  <property name="className" column="Class" type="string"/>
+  <property name="rollNo" column="RollNo" type="string"/>
+  <property name="age" column="Age" type="int"/>
+ 
+  <map name="subjects" cascade="all"  sort="natural" >
+       <key column="Student_Id"/>
+       <index column="Student_Class"  type="string"/>
+       <one-to-many class="com.java.hib.w3Mapping.Subject"/>
+  </map>
+ 
+ </class>
+</hibernate-mapping>

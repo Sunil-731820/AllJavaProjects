@@ -14,5 +14,8 @@
         <mapping resource="questionSet.hbm.xml" />
         <mapping resource="questionList.hbm.xml"/>
         <mapping resource="questionMap.hbm.xml"/>
+        
+        <mapping resource="student.hbm.xml"/>
+        <mapping resource="subject.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

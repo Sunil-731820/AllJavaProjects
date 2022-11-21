@@ -52,7 +52,7 @@ public class Subject implements Comparable<String>{
 		}else if(subject==null) {
 			return -1;
 		}else {
-			return 
+			return this.compareTo(subject); 
 		}
 		
 	}
