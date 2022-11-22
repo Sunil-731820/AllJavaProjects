@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">  
+var xmlHttpRequest;  
+function sendInfo() {   
+           var num=document.testform.numText.value;  
+           var url="index1.jsp?val="+num;   
+if(window.XMLHttpRequest){  
+	xmlHttpRequest=new XMLHttpRequest();  
+} else if(window.ActiveXObject){  
+	xmlHttpRequest=new ActiveXObject("Microsoft.XMLHTTP");  
+}  
+ 
+try {  
+	xmlHttpRequest.onreadystatechange=getInfo;  
+	xmlHttpRequest.open("GET",url,true);  
+	xmlHttpRequest.send();  
+} catch(e) {  
+	alert("Not able to connect to server");  
+}  
+}  
+ 
+function getInfo(){  
+	if(this.readyState == 4 && this.status == 200){  
+		var responseVal=xmlHttpRequest.responseText;  
+		document.getElementById('test').innerHTML=responseVal;  
+	}  
+}  
+ 
+</script>
+</head>
+<body>
+	<h2>Ajax JSP Example</h2>
+	<form name="testform">
+		<input type="text" name="numText"/> 
+		<input type="button" value="Get Table" onClick="sendInfo()"/>
+	</form>
+ 
+	<p id="test"> </p>
+ 
+</body>
+</html>
