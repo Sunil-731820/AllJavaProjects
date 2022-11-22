@@ -28,7 +28,10 @@ public class ConditionalNavigation {
 		else if (pageId.equals("test2")) {
 			return "test2";
 		}
-		else {
+		else if(pageId.equals("test3")) {
+			return "test3";
+		}
+		else  {
 			return "home";
 		}
 	}

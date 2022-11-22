@@ -9,9 +9,13 @@ public class Log4jTest {
 	public static void main(String[] args) {
 		System.out.println("The Use Of the Log4j In eclipse for debuggiing ");
 		
+		
+		
 		log.debug("Log4J Debug Message Test");
 		System.out.println("After Calling the Log.Debug()");
 		log.debug("Log4j info Message Tesst");
+		log.warning("Hello Warning ");
+		
 	}
 
 }

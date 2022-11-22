@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="com.java.jstl.Gender"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
     <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
     <fullyQualifiedTypeName name="com.java.jstl.Employ"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="jakarta.ws.rs.core.Response"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.GET"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.Produces"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.taglibs.standard.lang.jstl.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.core.config.Loggers"/>
+    <fullyQualifiedTypeName name="org.glassfish.hk2.utilities.reflection.Logger"/>
+    <fullyQualifiedTypeName name="com.java.jstl.Log4jTest"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
 </qualifiedTypeNameHistroy>

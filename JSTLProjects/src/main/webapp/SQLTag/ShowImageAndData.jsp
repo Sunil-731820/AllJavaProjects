@@ -11,27 +11,26 @@
 <body>
 <c:out value="${'Display Data From the Database '}"></c:out>
 <sql:setDataSource var="db" driver="com.mysql.jdbc.Driver"  
-     url="jdbc:mysql://localhost/imagedisplayusingjstl"  
+     url="jdbc:mysql://localhost/upload_image_using_jstl"  
      user="root"  password="root"/>  
   
 <sql:query dataSource="${db}" var="rs">  
-SELECT * from imagedisplay;  
+SELECT * from sample;  
 </sql:query>  
 
 
 <table width="100%" border="1">
 <tr>
-	<th>Id</th>
-	<th>UserName</th>
-	<th>Image </th>
+	<th>idpicture</th>
+	<th>caption</th>
+	<th>img </th>
 </tr>
     <c:forEach var="row" items="${rs.rows}">
         <tr>
-            <td>${row.title}</td>
-            <td>${row.author}</td>
+            <td>${row.idpicture}</td>
+            <td>${row.caption}</td>
             <td>
-             <img src="<c:out value="${row.image}" />" width="180" height="180"/>
-               
+            	<c:out value="${row.img}"></c:out>
             </td>
         </tr>
     </c:forEach>
