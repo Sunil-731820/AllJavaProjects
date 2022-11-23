@@ -16,6 +16,30 @@ public class Log4jTest {
 		log.debug("Log4j info Message Tesst");
 		log.warning("Hello Warning ");
 		
+		String number = Integer.toString(1);
+		System.out.println("The Number is ");
+		System.out.println(number);
+		System.out.println("The Type Of The String is ");
+		System.out.println(number.charAt(0));
+		System.out.println(number.getClass().getName());
+		
+		String name = "Hello My name Is Sunil";
+		System.out.println("The String is ");
+		if(name.startsWith("My")) {
+			System.out.println("String found ");
+		}else {
+			System.out.println("String not found ");
+		}
+		if(name.equals("1")) {
+			System.out.println("Found ");
+		}else {
+			System.out.println("Not Found");
+		}
+		if(name=="Hello My name Is Sunil") {
+			System.out.println("Same String");
+		}else {
+			System.out.println("Different String ");
+		}
 	}
 
 }
