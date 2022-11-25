@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sql_rt="http://java.sun.com/jstl/sql_rt"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>This is the EXample Of The Show All Employ </title>
+</h:head>
+
+<h:body>
+	<h:outputText value="Show All EMploy"/>
+	
+	<h:dataTable value="#{employ.showEmploy()}" var="e">
+		
+		<h:column>
+			<f:facet name="header">Employ first Name</f:facet>
+			<h:outputText value="#{e.firstName}"></h:outputText>
+		</h:column>
+		
+		<h:column>
+			<f:facet name="header">lastName</f:facet>
+			<h:outputText value="#{e.lastName}"></h:outputText>
+		</h:column>
+	
+	<h:column>
+			<f:facet name="header">Employ Age Name</f:facet>
+			<h:outputText value="#{e.age}"></h:outputText>
+		</h:column>
+		
+		<h:column>
+			<f:facet name="header">Locations</f:facet>
+			<h:outputText value="#{e.location}"></h:outputText>
+		</h:column>
+	
+	</h:dataTable>
+
+</h:body>
+</html>
