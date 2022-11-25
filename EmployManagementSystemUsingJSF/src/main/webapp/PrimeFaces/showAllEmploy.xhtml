@@ -11,7 +11,11 @@
 <h:body>
 	<h:outputText value="Show All EMploy"/>
 	
-	<h:dataTable value="#{employ.showEmploy()}" var="e">
+	<p:fieldset legend="Show Employ" toggleable="true" toggleSpeed="500"> 
+			 
+			<h:panelGrid columns="2" cellpadding="5">  
+			<h:graphicImage value="images/courses/python.png"/> 
+			<h:dataTable value="#{employ.showEmploy()}" var="e">
 		
 		<h:column>
 			<f:facet name="header">Employ first Name</f:facet>
@@ -34,6 +38,8 @@
 		</h:column>
 	
 	</h:dataTable>
-
+			
+		</h:panelGrid>  
+	</p:fieldset>  
 </h:body>
 </html>
