@@ -3,11 +3,11 @@ package com.java.jsf.RichFaces;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-import org.richfaces.ui.iteration.tree.model.TreeNodeImpl;
+
 
 @ManagedBean
 @RequestScoped
-public class Tree extends TreeNodeImpl{
+public class Tree extends org.richfaces.ui.iteration.tree.model.TreeNodeImpl{
 	
 	private Tree stationRoot;
 	private Tree rootNodes;
