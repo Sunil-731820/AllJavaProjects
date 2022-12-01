@@ -10,6 +10,8 @@
 
 <h:body>
 	<h:form id="form">  
+	
+	
 		<p:growl id="msgs" showDetail="true" />  
 		<h3 style="margin-top:0">Select a Course</h3>  
 
