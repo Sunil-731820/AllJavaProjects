@@ -38,12 +38,7 @@
     </dependencyManagement>
 
     <dependencies>
-   <!-- https://mvnrepository.com/artifact/org.richfaces/richfaces -->
-<dependency>
-    <groupId>org.richfaces</groupId>
-    <artifactId>richfaces</artifactId>
-    <version>5.0.0.Alpha3</version>
-</dependency>
+  
     
     <dependency>  
     <groupId>org.primefaces</groupId>  

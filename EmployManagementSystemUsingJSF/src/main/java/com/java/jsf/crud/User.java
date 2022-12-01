@@ -58,6 +58,7 @@ public class User {
 		dao = new UserDAO();
 	}
 	
+	
 	public User[] showUser() throws ClassNotFoundException, SQLException {
 		return dao.showUser();
 	}

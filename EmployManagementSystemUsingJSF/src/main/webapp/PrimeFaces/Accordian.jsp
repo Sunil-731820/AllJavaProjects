@@ -27,24 +27,7 @@
 		<p:tab title="Spring a Java Framework">  
 		<h:panelGrid columns="2" cellpadding="10">  
 		<p:graphicImage name="PrimeFaces/images/courses/spring.png" />  
-		<h:outputText value="It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		It is a Java Framework. It is designed to make web applications.
-		" />  
+		<h:outputText value="It is a Java Framework. It is designed to make web applications." />  
 		</h:panelGrid>  
 		</p:tab>  
 		
