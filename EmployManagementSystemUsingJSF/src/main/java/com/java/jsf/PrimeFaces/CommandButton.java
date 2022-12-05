@@ -9,7 +9,9 @@ import javax.faces.event.ActionEvent;
 public class CommandButton {
 	
 	public void commandButtonAction(ActionEvent actionEvent) {
-		addMessage("You have clicked that Button");
+		for(int i=0;i<10;i++) {
+			addMessage("You have clicked that Button"+ " "+ i);
+		}
 	}
 
 	public void addMessage(String summary) {
