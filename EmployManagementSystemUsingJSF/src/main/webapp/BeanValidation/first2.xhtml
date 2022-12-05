@@ -25,7 +25,7 @@
 			<h:outputText value="Enter Your Name"/>
 			
 			<h:inputText id="nme" value="#{userBean.name}" required="true" requiredMessage="Enter Name" style="height : 18px; width : 146px">
-				<f:validator validatorId="uidValidator"></f:validator>
+				<f:validator validatorId="nameValidator"></f:validator>
 			</h:inputText>
 			<h:message for="nme" style="color:red"/><br></br>
 			

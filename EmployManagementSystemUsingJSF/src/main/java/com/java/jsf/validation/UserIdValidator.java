@@ -20,13 +20,7 @@ public class UserIdValidator implements Validator{
 			fm.setSeverity(FacesMessage.SEVERITY_ERROR);
 			throw new ValidatorException(fm);
 		}
-		String name = (String) obj;	
-		if(!name.startsWith("S")) {
-			FacesMessage fm = new FacesMessage();
-			fm.setDetail("Name Should Start With S only");
-			fm.setSeverity(FacesMessage.SEVERITY_ERROR);
-			throw new ValidatorException(fm);
-		}
+		
 		
 	}
 	
