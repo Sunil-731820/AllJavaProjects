@@ -12,21 +12,17 @@
 <h:body>
 	<h:panelGrid columns="3" align="left">
 
-                <h:outputText value="Enter your DOB" />
+                  <h:outputText value="Enter your DOB" />
 
-                <h:inputText id="db" value="#{dateBeans.dob}" converterMessage="Please enter date in the DD-MM-YYYY format">
+                <h:inputText id="dob" value="#{helloBean.dob}" converterMessage="Please enter date in the DD-MM-YYYY format">
 
                 <f:convertDateTime pattern="dd-MM-yyyy" />
 
                 </h:inputText>
 
-                <h:message for="db" style="color:red" />
+                <h:message for="dob" style="color:red" />
 
-                       
-
-               
-
-                <h:commandButton value="Submit" action="#{dateBeans.display}" />
+                <h:commandButton value="Submit" action="#{helloBean.display}" />
 
         </h:panelGrid>
 </h:body>
