@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sql_rt="http://java.sun.com/jstl/sql_rt"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>This is the Example Of The Validation </title>
+</h:head>
+
+<h:body>
+		<h1>Example Of the Validation</h1>
+		<h:form>
+
+                <h:panelGrid columns="4">
+
+                        <h:outputText value="Enter your name" />
+
+                        <h:inputText id="nme" value="#{helloBean.name}" 
+
+                                validatorMessage="Length should be between 3 and 20">
+
+                                <f:validateLength minimum="3" maximum="20" />
+
+                        </h:inputText>
+
+                        <h:message for="nme" style="color:red" />
+
+                </h:panelGrid>
+
+ 
+
+                <h:commandButton value="LOGIN" action="#{helloBean.display}" />
+
+        </h:form>
+</h:body>
+
+</html>

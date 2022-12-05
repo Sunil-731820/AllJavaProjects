@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sql_rt="http://java.sun.com/jstl/sql_rt"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Example Of The Long Validation in JSF</title>
+</h:head>
+
+<h:body>
+	<h2>This is the EXample Of The Long Validation In JSF</h2>
+	
+	<h:form>
+			<h:panelGrid columns="4">
+				<h:outputText value="Enter the USer Id"/>
+				<h:inputText value="#{helloBean1.userId}" id="uid"
+				validatorMessage="User Id Should Be Between 100 and 1000">
+				<f:validateLongRange minimum="100" maximum="1000"/>
+				</h:inputText>
+			<h:message for="uid" style="color:red"></h:message>
+			</h:panelGrid>
+		
+		<h:commandButton value="LOGIN" action="#{helloBean1.display}"></h:commandButton>
+	</h:form>
+</h:body>
+
+</html>
+      

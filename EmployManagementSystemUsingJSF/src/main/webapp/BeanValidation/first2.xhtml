@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sql_rt="http://java.sun.com/jstl/sql_rt"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Example Of the custom Validations</title>
+</h:head>
+
+<h:body>
+	<h2>Custom Validation</h2>
+	
+	<h:form>
+		<h:panelGrid columns="4">
+			<h:outputText value="Enter Your ID"/>
+			<h:inputText id="uid" value="#{userBean.userId}" required="true" requiredMessage="Enter the USer Id">
+				<f:validator validatorId="uidValidator"/>
+			</h:inputText>
+			
+			<h:message for="uid" style="color:red"/>
+			<br></br>
+			
+			<h:outputText value="Enter Your Name"/>
+			
+			<h:inputText id="nme" value="#{userBean.name}" required="true" requiredMessage="Enter Name" style="height : 18px; width : 146px">
+				<f:validator validatorId="uidValidator"></f:validator>
+			</h:inputText>
+			<h:message for="nme" style="color:red"/><br></br>
+			
+			<h:commandButton value="LOGIN" action="#{userBean.display}"></h:commandButton>
+		</h:panelGrid>
+	</h:form>
+</h:body>
+
+
+</html>
