@@ -35,10 +35,14 @@ D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2222648
 \LeaveManagementSystemUsingHibernateAndJSTLTags\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\442341950.index
 \FirstExampleOfJPAUsingHibernates\src\main\java
+D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2959841633.index
+\BlogAndContent\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1558393478.index
 \EmployManagementSystemUsingJSF\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1052809892.index
 \EmployManagementSystemUsingJSF\src\main\java
+D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1369599402.index
+\BlogAndContent\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2256582327.index
 \EmployMSUsingHibernateAndXML\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1306825964.index

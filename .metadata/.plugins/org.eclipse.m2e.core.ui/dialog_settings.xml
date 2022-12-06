@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\AllJavaProjects\EmployManagementSystemUsingJSF\src\main\webapp\PrimeFaces\accordian.xhtml"/>
 			<item value="D:\AllJavaProjects\JSTLProjects\src\main\webapp\SQLTag\ShowAllStudents.jsp"/>
 			<item value="D:\AllJavaProjects\youtubeProjects\JpaDemo"/>
 		</list>
@@ -27,16 +28,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.java.rest"/>
-			<item value="com.java.js"/>
+			<item value="com.java.jsf"/>
 		</list>
 		<list key="groupId">
-			<item value="RestAPIWebServices"/>
-			<item value="JavaScript"/>
+			<item value="Infinite"/>
 		</list>
 		<list key="artifactId">
-			<item value="RestAPIWebServicesUsingJavaProjects"/>
-			<item value="JavaScriptCatalog"/>
+			<item value="BlogAndContent"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
