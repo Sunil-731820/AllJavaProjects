@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="com.java.jsf.moreExample.Student"/>
     <fullyQualifiedTypeName name="com.java.jsf.moreExample.Employ"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="javax.faces.event.ActionEvent"/>
@@ -56,8 +54,10 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.java.jsf.Connection.ConnectionHelper"/>
-    <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
-    <fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
     <fullyQualifiedTypeName name="com.java.jsf.login.DecryptionOfPinCode"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+    <fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
+    <fullyQualifiedTypeName name="org.primefaces.model.UploadedFile"/>
+    <fullyQualifiedTypeName name="org.primefaces.event.FileUploadEvent"/>
 </qualifiedTypeNameHistroy>

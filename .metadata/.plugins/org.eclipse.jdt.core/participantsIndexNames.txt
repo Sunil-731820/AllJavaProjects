@@ -13,6 +13,8 @@ D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1243689
 \EmployManagementSystemUsingJSTL\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3846525129.index
 \RestAPIWebServicesUsingJavaProjects\src\main\java
+D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2180302783.index
+\JSFAndPrimeFacesAndRichFaces\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4196834403.index
 \JSTLProjects\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2799008830.index
