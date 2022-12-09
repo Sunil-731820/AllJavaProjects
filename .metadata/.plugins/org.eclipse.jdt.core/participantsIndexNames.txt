@@ -11,6 +11,8 @@ D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3621120
 \JSTLProjects\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1243689473.index
 \EmployManagementSystemUsingJSTL\src\main\java
+D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\804091178.index
+\JSFAndPrimeFacesProjects\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3846525129.index
 \RestAPIWebServicesUsingJavaProjects\src\main\java
 D:\AllJavaProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2180302783.index
