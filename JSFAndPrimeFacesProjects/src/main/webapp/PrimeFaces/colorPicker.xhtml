@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sql_rt="http://java.sun.com/jstl/sql_rt"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Example Of the color Picker</title>
+</h:head>
+
+<h:body>
+<h1>Hello Color Picker</h1>
+	<h:form>  
+<h:panelGrid columns="2" cellpadding="5" style="margin-left: 20px">  
+<h:outputText value="Select Color: " />  
+<p:colorPicker value="#{colorPicker.color}" mode="popup" styleClass=".ui-colorpicker-rgb-g"/> 
+
+ 
+</h:panelGrid>  
+<p:commandButton value="Submit" action="response.xhtml" style="margin-left: 20px" />  
+</h:form>  
+</h:body>
+
+</html>
+      

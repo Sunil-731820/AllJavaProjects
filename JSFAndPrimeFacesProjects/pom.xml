@@ -3,14 +3,14 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Infinite</groupId>
-    <artifactId>JSFAndPrimeFacesProjects</artifactId>
+    <groupId>Hibernate</groupId>
+    <artifactId>EmployManagementSystemUsingJSF</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>JSFAndPrimeFacesProjects</name>
+    <name>EmployManagementSystemUsingJSF</name>
 
     <build>
-        <finalName>JSFAndPrimeFacesProjects</finalName>
+        <finalName>EmployManagementSystemUsingJSF</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -38,7 +38,9 @@
     </dependencyManagement>
 
     <dependencies>
-     <dependency>  
+  
+    
+    <dependency>  
     <groupId>org.primefaces</groupId>  
     <artifactId>primefaces</artifactId>  
     <version>6.1</version>  
