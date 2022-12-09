@@ -14,9 +14,9 @@ public class UserIdValidator implements Validator{
 	public void validate(FacesContext context, UIComponent component, Object obj) throws ValidatorException {
 		 String strId = (String) obj;
 		
-		if(!strId.startsWith("MM-")) {
+		if(!strId.startsWith("P")) {
 			FacesMessage fm = new FacesMessage();
-			fm.setDetail("User Id Should be in the format of MM-1234");
+			fm.setDetail("user ID Should Be in String Format");
 			fm.setSeverity(FacesMessage.SEVERITY_ERROR);
 			throw new ValidatorException(fm);
 		}
