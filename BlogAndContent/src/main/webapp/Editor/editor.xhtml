@@ -8,11 +8,25 @@
 <title>Editor</title>  
 </h:head>  
 <h:body>  
-<h2></h2>  
 <h:form>  
-<p:editor id="editor" widgetVar="editorWidget" value="#{editor.text}" width="600" /><br/>  
-<p:commandButton value="Submit" icon="ui-icon-disk" />  
-<p:commandButton value="Clear" type="button" onclick="PF('editorWidget').clear();" icon="ui-icon-close" />  
-</h:form>  
+	<p:editor id="editor" widgetVar="editorWidget" value="#{editor.text}" width="1500" /><br/>  
+	<p:commandButton update="display" value="Submit" icon="ui-icon-disk" />  
+	<p:commandButton  value="Clear" type="button" onclick="PF('editorWidget').clear();" icon="ui-icon-close" />
+	
+	
+		
+		<p:fieldset legend="WriteAble Content" toggleable="true" toggleSpeed="3000"
+		tabindex="4" collapsed="true"
+		> 
+			 
+			<h:panelGrid id="display">
+		<h2>The Output is </h2>
+			<h:outputText value="#{editor.text}"></h:outputText>
+		</h:panelGrid>  
+	</p:fieldset>  
+		
+		<h:outputText value="#{ReadingFileAndDisplay.readFile()}"></h:outputText>
+	
+</h:form>
 </h:body>  
 </html>  
