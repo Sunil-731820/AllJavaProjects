@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sql_rt="http://java.sun.com/jstl/sql_rt"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Example Of The Message</title>
+</h:head>
+
+<h:body>
+	<h2>Example Of The Message in JSf</h2>
+	
+	<h:form id="form">
+		<h:outputLabel for="username">Enter Your User Name</h:outputLabel>
+		<h:inputText id="name-id" value="#{user1.name}">
+		<h:message for="name-id" style="color:red"></h:message>
+		</h:inputText>
+		
+		<br></br>
+		
+		<h:outputLabel for="mobile">Enter Your Mobile Number</h:outputLabel>
+		<h:inputText id="mobile-id" value="#{user1.mobile}"></h:inputText>
+		<h:message for="mobile-id" style="color:red"></h:message>
+		<br></br>
+		
+		<h:commandButton value="Ok" action="response1.xhtml"></h:commandButton>
+	</h:form>
+</h:body>
+</html>
+      
