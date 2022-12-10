@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sql_rt="http://java.sun.com/jstl/sql_rt"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Example Of The Validate Bean</title>
+</h:head>
+
+<h:body>
+	<h2>Example Of tHE Bean Validations</h2>
+	<h:form>
+	<h:outputLabel for="user-name">Enter The User Name </h:outputLabel>
+	<h:inputText id="name-id" value="#{user11.name}">
+		<f:validateBean></f:validateBean>
+	</h:inputText>
+	
+	<br></br>
+	<h:commandButton value="OK" action="response.xhtml"></h:commandButton>
+	</h:form>
+</h:body>
+</html>
+      
