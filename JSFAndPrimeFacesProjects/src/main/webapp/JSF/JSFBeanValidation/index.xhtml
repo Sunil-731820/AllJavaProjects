@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sql_rt="http://java.sun.com/jstl/sql_rt"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Example Of The Bean Validation</title>
+</h:head>
+
+<h:body>
+	<h2>Example Of The Bean Validations </h2>
+	<h:form id="form">
+		<h:outputLabel for="username">Enter User Name</h:outputLabel>
+		<h:inputText id="name-id" value="#{user.name}"/>
+		<h:message for="name-id" style="color:red"/>
+		<br></br>
+		
+		<h:outputLabel for="age">Enter Your Age</h:outputLabel>
+		<h:inputText id="age-id" value="#{user.age}"/>
+		<h:message for="age-id"/>
+		<br></br>
+		
+		<h:outputLabel for="mobile">Enter Your Mobile Number</h:outputLabel>
+		<h:inputText id="mobile-id" value="#{user.mobile}"/>
+		<h:message for="mobile-id" style="color:red"/>
+		<br></br>
+		
+		<h:commandButton value="OK" action="response.xhtml"></h:commandButton>
+	</h:form>
+</h:body>
+</html>
+      
