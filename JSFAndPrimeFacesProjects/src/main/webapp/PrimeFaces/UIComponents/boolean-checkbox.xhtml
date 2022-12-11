@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sql_rt="http://java.sun.com/jstl/sql_rt"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Example of The Boolean Checkbox</title>
+</h:head>
+
+<h:body>
+	<h2>Example Of The Boolean CheckBox</h2>
+	
+	<p:growl id="check-msg"/>
+	<h:panelGrid columns="2" style="margin-bottom:10px" cellpadding="5">
+		<h:outputText value="Do you play Cricket"/>
+		<p:selectBooleanCheckbox value="#{booleanCheckbox.value}" widgetVar="Hello">
+			<p:ajax update="check-msg" listener="#{booleanCheckbox.addMessage}" />
+		</p:selectBooleanCheckbox>
+	</h:panelGrid>
+</h:body>
+</html>
+      
