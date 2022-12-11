@@ -14,8 +14,8 @@
 	<p:growl id="check-msg"/>
 	<h:panelGrid columns="2" style="margin-bottom:10px" cellpadding="5">
 		<h:outputText value="Do you play Cricket"/>
-		<p:selectBooleanCheckbox value="#{booleanCheckbox.value}" widgetVar="Hello">
-			<p:ajax update="check-msg" listener="#{booleanCheckbox.addMessage}" />
+		<p:selectBooleanCheckbox value="#{booleanCheckbox.value}">  
+			<p:ajax update="check-msg" listener="#{booleanCheckbox.addMessage}" />  
 		</p:selectBooleanCheckbox>
 	</h:panelGrid>
 </h:body>

@@ -5,23 +5,19 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 
-@ManagedBean
+@ManagedBean  
 @SessionScoped
-public class BooleanCheckbox {
+public class BooleanCheckbox {  
+		private boolean value;  
+		public boolean isValue() {  
+			return value;  
+		}  
+	public void setValue(boolean value) {  
+		this.value = value;  
+	}  
 	
-	private boolean value;
-	
-	public boolean isValue() {
-		return value;
-	}
-
-	public void setValue(boolean value) {
-		this.value = value;
-	}
-	
-	public void addMessage() {
-		String summary = value ? "Checked" : "UnChecked";
-		FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(summary));
-	}
-
-}
+	public void addMessage() {  
+		String summary = value ? "Checked" : "Unchecked";  
+		FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(summary));  
+	}  
+}  
